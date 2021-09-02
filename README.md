@@ -2,10 +2,10 @@
 
 Vi no IG do Sujeito Programador
 
-<!DOCTYPE html>
-<html lang="en">
-
-<style>
+<svg fill="none" viewBox="0 0 400 400" width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+    <foreignObject width="100%" height="100%">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+            <style>
 body {
   background-color: black;
 }
@@ -37,48 +37,46 @@ span {
 }
 
 span::before {
-  content: attr(data);
-  position: absolute;
-  transform: translateY(40px);
+content: attr(data);
+position: absolute;
+transform: translateY(40px);
 }
 
 .container:hover span {
-  transform: translateY(-40px);
-  color: rgb(0, 255, 242);
+transform: translateY(-40px);
+color: rgb(0, 255, 242);
 }
 
 .container span:nth-child(1) {
-  transition-delay: 0.05s;
+transition-delay: 0.05s;
 }
 
 .container span:nth-child(2) {
-  transition-delay: 0.15s;
+transition-delay: 0.15s;
 }
 
 .container span:nth-child(3) {
-  transition-delay: 0.25s;
+transition-delay: 0.25s;
 }
 
 .container span:nth-child(4) {
-  transition-delay: 0.35s;
+transition-delay: 0.35s;
 }
 
 .container span:nth-child(5) {
-  transition-delay: 0.35s;
+transition-delay: 0.35s;
 }
 
 .container span:nth-child(6) {
-  transition-delay: 0.25s;
+transition-delay: 0.25s;
 }
 
 .container span:nth-child(7) {
-  transition-delay: 0.15s;
+transition-delay: 0.15s;
 }
 
-
 </style>
-<body>
-    <div class="container">
+           <div class="container">
     <h1>Passe o mouse</h1>
         <a href="#">
             <span data="G">G</span>
@@ -90,6 +88,6 @@ span::before {
             <span data="o">o</span>
         </a>
     </div>
-</body>
-
-</html>
+        </div>
+    </foreignObject>
+</svg>
